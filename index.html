@@ -10,6 +10,12 @@
     <header>
       <h1>Mi nombre es Tomás Carrizo Aslanian</h1>
       <button id="modo-btn">Modo oscuro</button>
+      <script>
+  document.getElementById('modo-btn').addEventListener('click', () => {
+    document.body.classList.toggle('modo-oscuro');
+  });
+</script>
+
     </header>
 
     <section class="datos-curiosos">
